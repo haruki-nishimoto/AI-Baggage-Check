@@ -195,7 +195,7 @@ Future<void> loadModel() async {
     loadItemSets();
 
     imageLabeler = ImageLabeler(
-      options: ImageLabelerOptions(confidenceThreshold: 0.5),
+      options: ImageLabelerOptions(confidenceThreshold: 0.3),
     );
 
     controller = CameraController(
@@ -363,7 +363,7 @@ Widget build(BuildContext context) {
 
   return Scaffold(
     appBar: AppBar(
-      title: const Text('AI忘れ物確認'),
+      title: const Text('AI手荷物確認'),
       actions: [
         IconButton(
       icon: const Icon(Icons.refresh),
