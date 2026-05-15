@@ -1,17 +1,39 @@
-# baggage_ai
+# 忘れ物もうなし！AI手荷物確認
 
-A new Flutter project.
+FlutterとGoogle ML Kitを用いて開発した、AI手荷物確認アプリです。
 
-## Getting Started
+## アプリ概要
+カメラで持ち物を撮影するだけで、AIが物体を認識し、
+事前に登録した持ち物セットと比較して忘れ物を確認できます。
 
-This project is a starting point for a Flutter application.
+「財布・スマホ・鍵」などの日常の持ち物確認を
+簡単に行えることを目的として開発しました。
 
-A few resources to get you started if this is your first Flutter project:
+## 使用技術
+・Flutter
+・Dart
+・Google ML Kit
+・Camera Package
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## 主な機能
+・カメラ撮影
+・AI画像認識
+・持ち物チェック
+・セット管理機能
+・忘れ物確認表示
+・リセット機能
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 今後追加したい機能
+・音声通知機能
+・通知機能
+・AI認識精度向上
+・履歴保存機能
+・ダークモード対応
+
+## 動作環境
+・android
+
+## 作者
+Haruki Nishimoto
+
+
